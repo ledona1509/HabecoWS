@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<HabecoApParams>
+  <SessionKeyTimeExpired>500</SessionKeyTimeExpired>
+  <IPs>
+    <IP>10.30.173.52</IP>
+    <IP>10.30.173.53</IP>
+  </IPs>
+</HabecoApParams>

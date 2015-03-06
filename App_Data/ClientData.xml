@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ArrayOfClient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Client>
+    <ClientIp>10.30.173.52</ClientIp>
+    <SessionKey>1829103c-a24f-43ac-aa02-812e51616304</SessionKey>
+    <TimeExpired>2015-03-05T23:53:08.5418493+07:00</TimeExpired>
+  </Client>
+</ArrayOfClient>
