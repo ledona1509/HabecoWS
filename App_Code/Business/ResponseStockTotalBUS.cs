@@ -120,7 +120,7 @@ namespace Business
                                     XuatNB = Convert.ToInt32(reader["sl_x_noi_bo"].ToString()),
                                     XuatKhac = Convert.ToInt32(reader["sl_x_khac"].ToString()),
                                     TonCuoi = Convert.ToInt32(reader["Ton_cuoi_tt"].ToString()),
-                                    TenVattu = ""
+                                    TenVattu = reader["chi_tieu"].ToString()
                                 };
                                 responseStockTotal.StockTotal.Add(dsTonKho);
                             }
