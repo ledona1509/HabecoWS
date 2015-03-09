@@ -9,7 +9,7 @@ using Model;
 namespace Business
 {
     /// <summary>
-    /// ResponseStockTotalBUS is reponsibility for ResponseStockTotal object
+    /// ResponseStockTotalBUS is responsibility for ResponseStockTotalBUS object
     /// </summary>
     public class ResponseStockTotalBUS
     {

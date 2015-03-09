@@ -1,7 +1,7 @@
 ﻿namespace Model
 {
     /// <summary>
-    /// Summary description for DsCongNo
+    /// DsCongNo object
     /// </summary>
     public class DsCongNo
     {

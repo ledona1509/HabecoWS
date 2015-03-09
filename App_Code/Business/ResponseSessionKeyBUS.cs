@@ -5,7 +5,7 @@ using Model;
 namespace Business
 {
     /// <summary>
-    /// Summary description for ResponseSessionKeyBUS
+    /// ResponseSessionKeyBUS is responsibility for ResponseSessionKeyBUS object
     /// </summary>
     public class ResponseSessionKeyBUS
     {

@@ -11,16 +11,21 @@ using Model;
 namespace Helper
 {
     /// <summary>
-    /// Summary description for ClientHelper
+    /// ClientData.xml contain information Client Ip, Session key of Client
+    /// and the time when Client's Session key will be expired.
+    /// ClientHelper will manipulate ClientData.xml file
     /// </summary>
     public class ClientHelper
     {
+        /// <summary>
+        /// Location of ClientData.xml in system
+        /// </summary>
         private const string ClientDataPath = "~/App_Data/ClientData.xml";
 
         /// <summary>
-        /// Get List Client from file
+        /// Get List Client information from ClientData.xml
         /// </summary>
-        /// <returns>List Client object</returns>
+        /// <returns>List object Client</returns>
         public static List<Client> LoadClientDataHelper()
         {
             return SerializeObjectHelper.DeserializeObject<List<Client>>(ClientDataPath);
@@ -36,7 +41,7 @@ namespace Helper
         }
 
         /// <summary>
-        /// Update List ClientIP along with SessionKey from file
+        /// Update List ClientIP along with SessionKey to ClientData.xml
         /// </summary>
         /// <param name="clientIp">IP of client</param>
         /// <param name="newSessionKey">New SessionKey to update</param>

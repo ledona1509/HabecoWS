@@ -120,8 +120,21 @@ namespace Business
                             //read the data
                             while (reader.Read())
                             {
-                                // var t = reader["column_name"].ToString();
-                                // Console.WriteLine(reader["no_dk"].ToString());
+                                var dsCongNo = new DsCongNo
+                                                   {
+                                                       STT = Convert.ToInt32(reader["stt"].ToString()),
+                                                       MaKH = reader["Ma_kh"].ToString(),
+                                                       TenKH = reader["ten_kh"].ToString(),
+                                                       TaiKhoan = reader["Tk"].ToString(),
+                                                       DK_PSCo = Convert.ToInt32(reader["stt"].ToString()),
+                                                       DK_PSNo = Convert.ToInt32(reader["stt"].ToString()),
+                                                       TK_PSCo = Convert.ToInt32(reader["stt"].ToString()),
+                                                       TK_PSNo = Convert.ToInt32(reader["stt"].ToString()),
+                                                       BaoLanh = Convert.ToInt32(reader["Tien_BL"].ToString()),
+                                                       CK_PSCo = Convert.ToInt32(reader["Co_ck"].ToString()),
+                                                       CK_PSNo = Convert.ToInt32(reader["Co_ck_nt"].ToString())
+                                                   };
+                                responseDebitTotal.DebitTotal.Add(dsCongNo);
                             }
 
                             // create fake List DsCongNo for test

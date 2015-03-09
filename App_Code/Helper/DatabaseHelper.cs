@@ -6,7 +6,7 @@ using System.Data.SqlClient;
 namespace Helper
 {
     /// <summary>
-    /// Summary description for DatabaseHelper
+    /// DatabaseHelper manipulate SQL Server
     /// </summary>
     public static class DatabaseHelper
     {

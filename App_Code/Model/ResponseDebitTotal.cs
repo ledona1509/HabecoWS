@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Model
 {
     /// <summary>
-    /// Summary description for ResponseDebitTotal
+    /// ResponseDebitTotal object
     /// </summary>
     public class ResponseDebitTotal
     {

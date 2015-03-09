@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Model
 {
     /// <summary>
-    /// Summary description for ResponseStockTotal
+    /// ResponseStockTotal object
     /// </summary>
     public class ResponseStockTotal
     {

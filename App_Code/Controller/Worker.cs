@@ -142,8 +142,6 @@ namespace Controller
             return responseStockTotal;
         }
 
-        
-
         /// <summary>
         /// For test API
         /// </summary>
@@ -151,7 +149,7 @@ namespace Controller
         /// <returns>Print out your name</returns>
         public string TestAPIForDummy(string yourName)
         {
-            return "Hello " + yourName;
+            return "Xin chào " + yourName;
         }
     }
 }

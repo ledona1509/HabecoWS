@@ -3,7 +3,8 @@ using System;
 namespace Model
 {
     /// <summary>
-    /// Summary description for Client
+    /// Client object representative for a client include : ip, session key and the time
+    /// when session key will be expired
     /// </summary>
     public class Client
     {

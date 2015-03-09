@@ -11,18 +11,13 @@ namespace Helper
     /// </summary>
     public class SerializeObjectHelper
     {
-        public SerializeObjectHelper()
-        {
-            //
-            // TODO: Add constructor logic here
-            //
-        }
+        public SerializeObjectHelper(){}
 
         /// <summary>
         /// Serializes an object.
         /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="serializableObject"></param>
+        /// <typeparam name="T">Generic type</typeparam>
+        /// <param name="serializableObject">serializableObject</param>
         /// <param name="filePath">File path</param>
         public static void SerializeObject<T>(T serializableObject, string filePath)
         {
@@ -52,9 +47,9 @@ namespace Helper
         /// <summary>
         /// Deserializes an xml file into an object list
         /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// /// <param name="filePath">File path</param>
-        /// <returns></returns>
+        /// <typeparam name="T">Generic type</typeparam>
+        /// <param name="filePath">File path</param>
+        /// <returns>Generic type</returns>
         public static T DeserializeObject<T>(string filePath)
         {
             if (string.IsNullOrEmpty(filePath))
